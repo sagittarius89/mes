@@ -93,6 +93,8 @@
         <model:model model="reportColumnWidth" resource="model/reportColumnWidth.xml"/>
 
         <model:model model="workstation" resource="model/workstation.xml"/>
+        
+        <model:model model="purchase" resource="model/purchase.xml" />
 
         <model:dictionary name="categories"/>
         <model:dictionary name="posts"/>
@@ -118,6 +120,8 @@
                         view="workstationTypesList"/>
         <menu:menu-item name="divisions" category="basic"
                         view="divisionsList"/>
+        <menu:menu-item name="purchases" category="basic"
+        				view="purchaseList" />
 
         <menu:menu-item-url name="dictionariesInBasic"
                             category="basic" url="/page/qcadooDictionaries/dictionariesList.html"
@@ -148,7 +152,9 @@
         <view:view resource="view/productSubstituteComponentDetails.xml"/>
         <view:view resource="view/productsFamilies.xml"/>
         <view:view resource="view/productFamiliesAddProduct.xml"/>
-
+		<view:view resource="view/purchaseList.xml" />
+		<view:view resource="view/purchaseDetails.xml" />
+		
         <view:view resource="view/workstationTypesList.xml"/>
         <view:view resource="view/workstationTypeDetails.xml"/>
 
@@ -159,7 +165,9 @@
 
         <view:view resource="view/workstationsList.xml"/>
         <view:view resource="view/workstationDetails.xml"/>
-
+        
+        
+		
         <model:model-field model="unitConversionItem"
                            plugin="qcadooModel">
             <model:belongsTo name="product" model="product"

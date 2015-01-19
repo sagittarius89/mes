@@ -58,6 +58,8 @@ public final class BasicConstants {
     public static final String MODEL_REPORT_COLUMN_WIDTH = "reportColumnWidth";
 
     public static final String MODEL_WORKSTATION = "workstation";
+    
+    public static final String MODEL_PURCHASE = "purchase";
 
     public static final String SHIFT_TIMETABLE_EXCEPTION = "shiftTimetableException";
 
@@ -80,6 +82,8 @@ public final class BasicConstants {
     public static final String VIEW_STAFF_DETAILS = "staffDetails";
 
     public static final String VIEW_STAFFS_LIST = "staffsList";
+    
+    public static final String VIEW_PURCHASE_LIST = "purchaseList";
 
     public static final String VIEW_COMPANY_DETAILS = "companyInAdministrationDetails";
 
